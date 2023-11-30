@@ -17,8 +17,9 @@ public class Ex01_Variables {
 		// 변수값 출력
 		System.out.println(name);
 		System.out.println("name");
-		System.out.println(name1);
-
+//		System.out.println(name1);
+		System.out.println("저의 이름은 : " + name);
+		System.out.println("저의 이름은 " + name + " 입니다.");
 	}
 
 }
