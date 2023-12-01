@@ -10,7 +10,7 @@ public class Ex03_AssignmentOperator {
 		System.out.println("num1: " + num1 + " num2: " + num2); // num1:17 , num2:7 
 		num1 += num2; // num1 = num1 + num2;
 		System.out.println("num1: " + num1 + " num2: " + num2); // num1:24 , num2:7
-		num1 -= num2;
+		num1 -= num2; // num1 = num1 - num2;
 		System.out.println("num1: " + num1 + " num2: " + num2); // num1:17 , num2:7
 		num1 *= num2;
 		System.out.println("num1: " + num1 + " num2: " + num2); // num1:119 , num2:7
