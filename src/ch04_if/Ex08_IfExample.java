@@ -43,6 +43,7 @@ public class Ex08_IfExample {
 			}
 		}
 		System.out.println("가장 큰 수는 " + max + "입니다.");
+		System.out.println("추가된 내용");
 
 	}
 
