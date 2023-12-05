@@ -6,18 +6,15 @@ public class Ex07_IfExample {
 
 	public static void main(String[] args) {
 		/**
-		 * 성적 출력 예제 응용 
-		 * 입력값: 학년(year), 점수(score)
-		 * 처리
-		 * 	- 1~3학년은 60점 이상이면 합격
-		 * 	- 4학년은 70점 이상이어야 합격 
+		 * 성적 출력 예제 응용 입력값: 학년(year), 점수(score) 처리 - 1~3학년은 60점 이상이면 합격 - 4학년은 70점 이상이어야
+		 * 합격
 		 */
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("학년 입력: ");
 		int year = scanner.nextInt();
 		System.out.print("점수 입력: ");
 		int score = scanner.nextInt();
-		
+
 		if (year >= 1 && year <= 4 && score >= 0 && score <= 100) {
 			if (score >= 60) {
 				if (year != 4) {
@@ -40,13 +37,3 @@ public class Ex07_IfExample {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
