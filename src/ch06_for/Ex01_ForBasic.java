@@ -16,6 +16,8 @@ public class Ex01_ForBasic {
             System.out.println("보이나요?");
             System.out.println("i = " + i);
         }
+        // i는 for문 내에서 선언된 지역변수이기 때문에 for문을 벗어나면 사용불가
+//        System.out.println(i);
 
         // 반복문 종료 후에도 반복변수를 사용하려면
         int j = 0;
