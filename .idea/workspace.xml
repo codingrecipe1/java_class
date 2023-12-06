@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="for 마무리">
+      <change afterPath="$PROJECT_DIR$/src/ch07_while/Ex01_WhileBasic.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2Z3wD31W9FwWqCCLeH1NUw7ZHXn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/data&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Ex01_WhileBasic">
+    <configuration name="Ex01_WhileBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex01_WhileBasic" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch07_while.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex07_NestedFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06_for.Ex07_NestedFor" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch06_for.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08_ForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06_for.Ex08_ForEx" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch06_for.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex09_ForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06_for.Ex09_ForEx" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch06_for.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex11_ForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06_for.Ex11_ForEx" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch06_for.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ex01_WhileBasic" />
+        <item itemvalue="Application.Ex11_ForEx" />
+        <item itemvalue="Application.Ex09_ForEx" />
+        <item itemvalue="Application.Ex08_ForEx" />
+        <item itemvalue="Application.Ex07_NestedFor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="" />
+      <created>1701663959345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701663959345</updated>
+    </task>
+    <task id="LOCAL-00001" summary="switch case">
+      <option name="closed" value="true" />
+      <created>1701668785143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701668785144</updated>
+    </task>
+    <task id="LOCAL-00002" summary="for문 시작">
+      <option name="closed" value="true" />
+      <created>1701672909540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701672909540</updated>
+    </task>
+    <task id="LOCAL-00003" summary="for문 예제">
+      <option name="closed" value="true" />
+      <created>1701737512893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701737512893</updated>
+    </task>
+    <task id="LOCAL-00004" summary="for문 예제">
+      <option name="closed" value="true" />
+      <created>1701739419803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701739419803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="중첩 for문, 구구단예제">
+      <option name="closed" value="true" />
+      <created>1701750452577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701750452577</updated>
+    </task>
+    <task id="LOCAL-00006" summary="for 마무리">
+      <option name="closed" value="true" />
+      <created>1701759088015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701759088015</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="switch case" />
+    <MESSAGE value="for문 시작" />
+    <MESSAGE value="for문 예제" />
+    <MESSAGE value="중첩 for문, 구구단예제" />
+    <MESSAGE value="for 마무리" />
+    <option name="LAST_COMMIT_MESSAGE" value="for 마무리" />
+  </component>
+</project>
