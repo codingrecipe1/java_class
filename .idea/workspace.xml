@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="for 마무리">
-      <change afterPath="$PROJECT_DIR$/src/ch07_while/Ex01_WhileBasic.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="while문 시작">
+      <change afterPath="$PROJECT_DIR$/src/ch07_while/Ex02_WhileEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch07_while/Ex03_Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex01_WhileBasic">
+  <component name="RunManager" selected="Application.Ex03_Random">
     <configuration name="Ex01_WhileBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch07_while.Ex01_WhileBasic" />
       <module name="java_class" />
@@ -58,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07_NestedFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06_for.Ex07_NestedFor" />
+    <configuration name="Ex02_WhileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex02_WhileEx" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06_for.*" />
+          <option name="PATTERN" value="ch07_while.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex08_ForEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06_for.Ex08_ForEx" />
+    <configuration name="Ex03_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex03_Random" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06_for.*" />
+          <option name="PATTERN" value="ch07_while.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex03_Random" />
+        <item itemvalue="Application.Ex02_WhileEx" />
         <item itemvalue="Application.Ex01_WhileBasic" />
         <item itemvalue="Application.Ex11_ForEx" />
         <item itemvalue="Application.Ex09_ForEx" />
-        <item itemvalue="Application.Ex08_ForEx" />
-        <item itemvalue="Application.Ex07_NestedFor" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701759088015</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="while문 시작">
+      <option name="closed" value="true" />
+      <created>1701821673345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701821673346</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +207,7 @@
     <MESSAGE value="for문 예제" />
     <MESSAGE value="중첩 for문, 구구단예제" />
     <MESSAGE value="for 마무리" />
-    <option name="LAST_COMMIT_MESSAGE" value="for 마무리" />
+    <MESSAGE value="while문 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="while문 시작" />
   </component>
 </project>
