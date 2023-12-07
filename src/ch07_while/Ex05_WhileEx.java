@@ -10,7 +10,8 @@ public class Ex05_WhileEx {
          * 숫자를 맞추면 종료하고 몇 번만에 맞췄는지를 출력해줌
          */
         Scanner scanner = new Scanner(System.in);
-        int input = 0, count = 0;
+        int input = 0;
+        int count = 0;
         boolean run = true;
         System.out.println("up & down");
         int answer = (int) (Math.random() * 100) + 1;
