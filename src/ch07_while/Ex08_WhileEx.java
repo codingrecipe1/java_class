@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Ex08_WhileEx {
     public static void main(String[] args) {
         boolean run = true;
-        int balance = 0; // 잔고
         int deposit = 0; // 입금액
         int withdraw = 0; // 출금액
         int select = 0; // 기능선택
+        int balance = 0; // 잔고
         Scanner scan = new Scanner(System.in); // Scanner 클래스타입의 변수 scan
 
         while (run) {
