@@ -17,13 +17,16 @@ public class Ex09_ArrayEx {
             System.out.println("--------------------------------------------------------------");
             System.out.print("선택> ");
             selectNo = scan.nextInt();
-
+            // 전역변수이긴 하지만 while문이 실행될 때마다 다시 선언되어 배열로 활용 불가
+//            int[] scores = null;
             if (selectNo == 1) {
                 // 학생수 입력 받고 해당 수 크기를 갖는 배열로 선언
                 System.out.print("학생수>");
                 studentNum = scan.nextInt();
                 // 입력받은 학생수만큼의 크기를 갖는 배열 객체로 선언(new)
                 scores = new int[studentNum];
+                // 지역변수로 선언하면 else if 에서는 사용 불가
+//                int[] scores = new int[studentNum];
             } else if (selectNo == 2) {
                 // 배열에 점수 데이터 저장
                 for (int i = 0; i < scores.length; i++) {
