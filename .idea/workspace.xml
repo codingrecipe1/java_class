@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="while 예제(평균구하기)">
-      <change afterPath="$PROJECT_DIR$/src/ch07_while/Ex07_WhileEx.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="배열 예제(학생성적관리)_설명추가">
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex1/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex2/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex3/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/Ex01_if.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/Ex02_for.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/Ex03_while.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex01_ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex01_ArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex09_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex09_ArrayEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +41,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -45,13 +54,18 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex07_WhileEx">
-    <configuration name="Ex03_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex03_Random" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch10_class.ex3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ch10_class.ex3.StudentMain">
+    <configuration name="Ex03_IfExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04_if.Ex03_IfExample" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07_while.*" />
+          <option name="PATTERN" value="ch04_if.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04_WhileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex04_WhileEx" />
+    <configuration name="Ex08_ArrayEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09_array.Ex08_ArrayEx" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07_while.*" />
+          <option name="PATTERN" value="ch09_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05_WhileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex05_WhileEx" />
+    <configuration name="Ex09_ArrayEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09_array.Ex09_ArrayEx" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07_while.*" />
+          <option name="PATTERN" value="ch09_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex06_WhileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex06_WhileEx" />
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex2.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07_while.*" />
+          <option name="PATTERN" value="ch10_class.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07_WhileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07_while.Ex07_WhileEx" />
+    <configuration name="ch10_class.ex3.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex3.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07_while.*" />
+          <option name="PATTERN" value="ch10_class.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex07_WhileEx" />
-        <item itemvalue="Application.Ex06_WhileEx" />
-        <item itemvalue="Application.Ex05_WhileEx" />
-        <item itemvalue="Application.Ex04_WhileEx" />
-        <item itemvalue="Application.Ex03_Random" />
+        <item itemvalue="Application.ch10_class.ex3.StudentMain" />
+        <item itemvalue="Application.StudentMain" />
+        <item itemvalue="Application.Ex03_IfExample" />
+        <item itemvalue="Application.Ex09_ArrayEx" />
+        <item itemvalue="Application.Ex08_ArrayEx" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +224,87 @@
       <option name="project" value="LOCAL" />
       <updated>1701843484956</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="while 예제(음수양수합계)">
+      <option name="closed" value="true" />
+      <created>1701847206980</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701847206980</updated>
+    </task>
+    <task id="LOCAL-00012" summary="while 은행예제">
+      <option name="closed" value="true" />
+      <created>1701910559049</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701910559049</updated>
+    </task>
+    <task id="LOCAL-00013" summary="String 예제">
+      <option name="closed" value="true" />
+      <created>1701915238085</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915238085</updated>
+    </task>
+    <task id="LOCAL-00014" summary="배열 시작">
+      <option name="closed" value="true" />
+      <created>1701927003663</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701927003663</updated>
+    </task>
+    <task id="LOCAL-00015" summary="배열 예제">
+      <option name="closed" value="true" />
+      <created>1701929619233</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701929619233</updated>
+    </task>
+    <task id="LOCAL-00016" summary="배열 예제(숫자찾기)">
+      <option name="closed" value="true" />
+      <created>1701931748763</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701931748763</updated>
+    </task>
+    <task id="LOCAL-00017" summary="배열 예제(거스름돈)">
+      <option name="closed" value="true" />
+      <created>1701997523588</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701997523588</updated>
+    </task>
+    <task id="LOCAL-00018" summary="배열 예제(정렬)">
+      <option name="closed" value="true" />
+      <created>1702012723086</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702012723086</updated>
+    </task>
+    <task id="LOCAL-00019" summary="배열 예제(학생성적관리)">
+      <option name="closed" value="true" />
+      <created>1702252755686</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702252755686</updated>
+    </task>
+    <task id="LOCAL-00020" summary="배열 예제(학생성적관리)_설명추가">
+      <option name="closed" value="true" />
+      <created>1702254054995</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702254054995</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +328,16 @@
     <MESSAGE value="random 메서드, 형변환" />
     <MESSAGE value="while 예제" />
     <MESSAGE value="while 예제(평균구하기)" />
-    <option name="LAST_COMMIT_MESSAGE" value="while 예제(평균구하기)" />
+    <MESSAGE value="while 예제(음수양수합계)" />
+    <MESSAGE value="while 은행예제" />
+    <MESSAGE value="String 예제" />
+    <MESSAGE value="배열 시작" />
+    <MESSAGE value="배열 예제" />
+    <MESSAGE value="배열 예제(숫자찾기)" />
+    <MESSAGE value="배열 예제(거스름돈)" />
+    <MESSAGE value="배열 예제(정렬)" />
+    <MESSAGE value="배열 예제(학생성적관리)" />
+    <MESSAGE value="배열 예제(학생성적관리)_설명추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="배열 예제(학생성적관리)_설명추가" />
   </component>
 </project>

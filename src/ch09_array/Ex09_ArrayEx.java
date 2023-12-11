@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class Ex09_ArrayEx {
     public static void main(String[] args) {
+        // 스캐너 객체를 선언한다.
         Scanner scan = new Scanner(System.in);
+        // boolean 타입의 run 변수를 선언해서 true를 대입한다.
         boolean run = true;
+        // int 타입의 studentNum 변수를 선언해서 0을 대입한다.
         int studentNum = 0;
         int selectNo = 0;
 
