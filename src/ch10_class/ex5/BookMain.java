@@ -20,5 +20,6 @@ public class BookMain {
 
         // 모든 매개변수 있는 생성자로 객체 만들고 필드값 채우기
         Book book3 = new Book("세이노의 가르침", "세이노", "데이원", "4098098302", 7200);
+        book3.bookPrice = 6000;
     }
 }
