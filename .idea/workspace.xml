@@ -51,13 +51,13 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch10_class.ex9.StudentMain">
+  <component name="RunManager" selected="Application.ch10_class.ex09.StudentMain">
     <configuration name="MethodExMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex6.MethodExMain" />
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex06.MethodExMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex6.*" />
+          <option name="PATTERN" value="ch10_class.ex06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,11 +66,11 @@
       </method>
     </configuration>
     <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex2.StudentMain" />
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex02.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex2.*" />
+          <option name="PATTERN" value="ch10_class.ex02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch10_class.ex3.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex3.StudentMain" />
+    <configuration name="ch10_class.ex03.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex03.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex3.*" />
+          <option name="PATTERN" value="ch10_class.ex03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch10_class.ex4.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex4.StudentMain" />
+    <configuration name="ch10_class.ex04.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex04.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex4.*" />
+          <option name="PATTERN" value="ch10_class.ex04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch10_class.ex9.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex9.StudentMain" />
+    <configuration name="ch10_class.ex09.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex09.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex9.*" />
+          <option name="PATTERN" value="ch10_class.ex09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,10 +119,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ch10_class.ex9.StudentMain" />
+        <item itemvalue="Application.ch10_class.ex09.StudentMain" />
         <item itemvalue="Application.MethodExMain" />
-        <item itemvalue="Application.ch10_class.ex4.StudentMain" />
-        <item itemvalue="Application.ch10_class.ex3.StudentMain" />
+        <item itemvalue="Application.ch10_class.ex04.StudentMain" />
+        <item itemvalue="Application.ch10_class.ex03.StudentMain" />
         <item itemvalue="Application.StudentMain" />
       </list>
     </recent_temporary>
