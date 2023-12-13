@@ -1,4 +1,4 @@
-package ch10_class.ex8;
+package ch10_class.ex08;
 
 public class Book {
     private String bookTitle;

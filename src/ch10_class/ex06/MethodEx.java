@@ -1,4 +1,4 @@
-package ch10_class.ex6;
+package ch10_class.ex06;
 
 public class MethodEx {
     // 매개변수 x, 리턴 x

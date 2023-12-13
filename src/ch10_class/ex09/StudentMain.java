@@ -1,4 +1,4 @@
-package ch10_class.ex9;
+package ch10_class.ex09;
 
 public class StudentMain {
     public static void main(String[] args) {

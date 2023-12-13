@@ -1,4 +1,4 @@
-package ch10_class.ex2;
+package ch10_class.ex02;
 
 public class Student {
     // 필드선언

@@ -1,4 +1,4 @@
-package ch10_class.ex9;
+package ch10_class.ex09;
 
 public class Student {
     // 필드, getter/setter, 기본생성자, 매개변수 생성자, toString

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="객체지향 시작">
-      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex4/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex4/StudentMain.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="객체지향-클래스활용">
       <change afterPath="$PROJECT_DIR$/src/study/Ex01_if.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/study/Ex02_for.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/study/Ex03_while.java" afterDir="false" />
@@ -53,26 +51,13 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch10_class.ex4.StudentMain">
-    <configuration name="Ex03_IfExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04_if.Ex03_IfExample" />
+  <component name="RunManager" selected="Application.ch10_class.ex9.StudentMain">
+    <configuration name="MethodExMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex6.MethodExMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04_if.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex09_ArrayEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch09_array.Ex09_ArrayEx" />
-      <module name="java_class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch09_array.*" />
+          <option name="PATTERN" value="ch10_class.ex6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ch10_class.ex9.StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex9.StudentMain" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch10_class.ex9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch10_class.ex9.StudentMain" />
+        <item itemvalue="Application.MethodExMain" />
         <item itemvalue="Application.ch10_class.ex4.StudentMain" />
         <item itemvalue="Application.ch10_class.ex3.StudentMain" />
         <item itemvalue="Application.StudentMain" />
-        <item itemvalue="Application.Ex03_IfExample" />
-        <item itemvalue="Application.Ex09_ArrayEx" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +304,63 @@
       <option name="project" value="LOCAL" />
       <updated>1702275637176</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="객체지향 시작-2">
+      <option name="closed" value="true" />
+      <created>1702278003205</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702278003205</updated>
+    </task>
+    <task id="LOCAL-00023" summary="객체지향 시작-3">
+      <option name="closed" value="true" />
+      <created>1702342450411</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702342450411</updated>
+    </task>
+    <task id="LOCAL-00024" summary="객체지향 시작-method">
+      <option name="closed" value="true" />
+      <created>1702347245540</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702347245541</updated>
+    </task>
+    <task id="LOCAL-00025" summary="객체지향-method 연습">
+      <option name="closed" value="true" />
+      <created>1702354263338</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702354263338</updated>
+    </task>
+    <task id="LOCAL-00026" summary="객체지향-method 연습(계산기)">
+      <option name="closed" value="true" />
+      <created>1702359559659</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702359559659</updated>
+    </task>
+    <task id="LOCAL-00027" summary="객체지향-method 연습(계산기)">
+      <option name="closed" value="true" />
+      <created>1702359924529</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702359924529</updated>
+    </task>
+    <task id="LOCAL-00028" summary="객체지향-클래스활용">
+      <option name="closed" value="true" />
+      <created>1702426739657</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1702426739658</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +375,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch case" />
     <MESSAGE value="for문 시작" />
     <MESSAGE value="for문 예제" />
     <MESSAGE value="중첩 for문, 구구단예제" />
@@ -341,6 +394,12 @@
     <MESSAGE value="배열 예제(학생성적관리)" />
     <MESSAGE value="배열 예제(학생성적관리)_설명추가" />
     <MESSAGE value="객체지향 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체지향 시작" />
+    <MESSAGE value="객체지향 시작-2" />
+    <MESSAGE value="객체지향 시작-3" />
+    <MESSAGE value="객체지향 시작-method" />
+    <MESSAGE value="객체지향-method 연습" />
+    <MESSAGE value="객체지향-method 연습(계산기)" />
+    <MESSAGE value="객체지향-클래스활용" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체지향-클래스활용" />
   </component>
 </project>

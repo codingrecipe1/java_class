@@ -1,4 +1,4 @@
-package ch10_class.ex6;
+package ch10_class.ex06;
 
 public class MethodExMain {
     public static void main(String[] args) {
