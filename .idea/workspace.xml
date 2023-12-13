@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-회원">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-회원 완성">
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex11/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex11/BoardMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch10_class/ex10/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10_class/ex10/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch10_class/ex10/MemberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10_class/ex10/MemberMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702427849494</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="클래스연습-회원 완성">
+      <option name="closed" value="true" />
+      <created>1702435137942</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702435137942</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="중첩 for문, 구구단예제" />
     <MESSAGE value="for 마무리" />
     <MESSAGE value="while문 시작" />
     <MESSAGE value="random 메서드, 형변환" />
@@ -415,6 +422,7 @@
     <MESSAGE value="객체지향-클래스활용" />
     <MESSAGE value="패키지이름변경" />
     <MESSAGE value="클래스연습-회원" />
-    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-회원" />
+    <MESSAGE value="클래스연습-회원 완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-회원 완성" />
   </component>
 </project>
