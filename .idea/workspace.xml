@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="객체지향-클래스활용">
-      <change afterPath="$PROJECT_DIR$/src/study/Ex01_if.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study/Ex02_for.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study/Ex03_while.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-회원">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch10_class/ex10/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10_class/ex10/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch10_class/ex10/MemberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10_class/ex10/MemberMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +359,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702426739658</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="패키지이름변경">
+      <option name="closed" value="true" />
+      <created>1702427476184</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1702427476184</updated>
+    </task>
+    <task id="LOCAL-00030" summary="클래스연습-회원">
+      <option name="closed" value="true" />
+      <created>1702427849494</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702427849494</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,8 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for문 시작" />
-    <MESSAGE value="for문 예제" />
     <MESSAGE value="중첩 for문, 구구단예제" />
     <MESSAGE value="for 마무리" />
     <MESSAGE value="while문 시작" />
@@ -400,6 +413,8 @@
     <MESSAGE value="객체지향-method 연습" />
     <MESSAGE value="객체지향-method 연습(계산기)" />
     <MESSAGE value="객체지향-클래스활용" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체지향-클래스활용" />
+    <MESSAGE value="패키지이름변경" />
+    <MESSAGE value="클래스연습-회원" />
+    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-회원" />
   </component>
 </project>
