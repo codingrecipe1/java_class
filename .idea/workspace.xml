@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-회원 완성">
-      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex11/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex11/BoardMain.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-게시판 시작">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch10_class/ex11/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10_class/ex11/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch10_class/ex11/BoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch10_class/ex11/BoardMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +50,13 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch10_class.ex09.StudentMain">
-    <configuration name="MethodExMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex06.MethodExMain" />
+  <component name="RunManager" selected="Application.BoardMain">
+    <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex11.BoardMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex06.*" />
+          <option name="PATTERN" value="ch10_class.ex11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex02.StudentMain" />
+    <configuration name="MethodExMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex06.MethodExMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex02.*" />
+          <option name="PATTERN" value="ch10_class.ex06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoardMain" />
         <item itemvalue="Application.ch10_class.ex09.StudentMain" />
         <item itemvalue="Application.MethodExMain" />
         <item itemvalue="Application.ch10_class.ex04.StudentMain" />
         <item itemvalue="Application.ch10_class.ex03.StudentMain" />
-        <item itemvalue="Application.StudentMain" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702435137942</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="클래스연습-게시판 시작">
+      <option name="closed" value="true" />
+      <created>1702442354919</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702442354919</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for 마무리" />
     <MESSAGE value="while문 시작" />
     <MESSAGE value="random 메서드, 형변환" />
     <MESSAGE value="while 예제" />
@@ -423,6 +430,7 @@
     <MESSAGE value="패키지이름변경" />
     <MESSAGE value="클래스연습-회원" />
     <MESSAGE value="클래스연습-회원 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-회원 완성" />
+    <MESSAGE value="클래스연습-게시판 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-게시판 시작" />
   </component>
 </project>

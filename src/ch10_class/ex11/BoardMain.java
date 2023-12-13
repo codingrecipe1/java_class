@@ -15,6 +15,7 @@ public class BoardMain {
         Scanner scanner = new Scanner(System.in);
         boolean run = true;
         int selectNo = 0;
+        Board board = null;
 
         while (run) {
             System.out.println("--------------------------------------------------------------");
@@ -23,9 +24,19 @@ public class BoardMain {
             System.out.print("선택> ");
             selectNo = scanner.nextInt();
             if (selectNo == 1) {
-
+                System.out.print("글번호: ");
+                Long id = scanner.nextLong();
+                System.out.print("제목: ");
+                String boardTitle = scanner.next();
+                System.out.print("작성자: ");
+                String boardWriter = scanner.next();
+                System.out.print("내용: ");
+                String boardContents = scanner.next();
+                board = new Board(id, boardTitle, boardWriter, boardContents);
             } else if (selectNo == 2) {
-
+                System.out.print("조회할 글번호: ");
+                Long id = scanner.nextLong();
+                board.findById(id);
             } else if (selectNo == 3) {
                 run = false;
             }
