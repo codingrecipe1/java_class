@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="ArrayList - Book 객체">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="ArrayList - Book 객체, static">
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_array/ex03/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_array/ex03/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_array/ex03/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_array/ex03/BookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_array/ex01/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_array/ex02/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_array/ex01/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_array/ex02/StudentMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +95,11 @@
       </method>
     </configuration>
     <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_array.ex01.StudentMain" />
+      <option name="MAIN_CLASS_NAME" value="ch11_array.ex02.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_array.ex01.*" />
+          <option name="PATTERN" value="ch11_array.ex02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702529578301</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ArrayList - Book 객체, static">
+      <option name="closed" value="true" />
+      <created>1702531687287</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1702531687287</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="while 예제(음수양수합계)" />
     <MESSAGE value="while 은행예제" />
     <MESSAGE value="String 예제" />
     <MESSAGE value="배열 시작" />
@@ -471,6 +482,7 @@
     <MESSAGE value="ArrayList" />
     <MESSAGE value="ArrayList - 객체저장" />
     <MESSAGE value="ArrayList - Book 객체" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - Book 객체" />
+    <MESSAGE value="ArrayList - Book 객체, static" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - Book 객체, static" />
   </component>
 </project>
