@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="ArrayList">
-      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex2/StudentMain.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="ArrayList - 객체저장">
+      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex03/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex03/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_array/ex2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_array/ex01/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_array/ex2/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_array/ex01/StudentMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_array.ex2.StudentMain" />
+      <option name="MAIN_CLASS_NAME" value="ch11_array.ex01.StudentMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_array.ex2.*" />
+          <option name="PATTERN" value="ch11_array.ex01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702516766747</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ArrayList - 객체저장">
+      <option name="closed" value="true" />
+      <created>1702520931178</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1702520931178</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="while 예제" />
     <MESSAGE value="while 예제(평균구하기)" />
     <MESSAGE value="while 예제(음수양수합계)" />
     <MESSAGE value="while 은행예제" />
@@ -447,6 +456,7 @@
     <MESSAGE value="클래스연습-게시판 시작" />
     <MESSAGE value="클래스연습-게시판 완료" />
     <MESSAGE value="ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList" />
+    <MESSAGE value="ArrayList - 객체저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - 객체저장" />
   </component>
 </project>
