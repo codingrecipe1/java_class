@@ -31,6 +31,7 @@ public class BookRepository {
         return bookDTOList;
     }
 
+
     /**
      * 도서조회 메서드
      * name: findById
@@ -40,6 +41,21 @@ public class BookRepository {
      *      Service로 부터 id를 전달받고 일치하는 결과를 찾아서 DTO를 리턴
      *      없으면 null 리턴
      */
+    public BookDTO findById(Long id) {
+        BookDTO bookDTO = null;
+//        for (int i = 0; i < bookDTOList.size(); i++) {
+//            if (id.equals(bookDTOList.get(i).getId())) {
+//                bookDTO = bookDTOList.get(i);
+//            }
+//        }
+        // foreach
+        for (BookDTO bookDTO1: bookDTOList) {
+            if (id.equals(bookDTO1.getId())) {
+                bookDTO = bookDTO1;
+            }
+        }
+        return bookDTO;
+    }
 
     /**
      * 도서조회 메서드

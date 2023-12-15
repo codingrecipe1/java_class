@@ -51,6 +51,7 @@ public class BookService {
         }
     }
 
+
     /**
      * 도서조회 메서드
      * name: findById
@@ -60,6 +61,16 @@ public class BookService {
      *      id를 입력받고 Repository로 부터 id에 해당 하는 도서 정보를 출력
      *      없으면 없다고 출력
      */
+    public void findById() {
+        System.out.print("조회 id: ");
+        Long id = scanner.nextLong();
+        BookDTO bookDTO = bookRepository.findById(id);
+        if (bookDTO != null) {
+            System.out.println("bookDTO = " + bookDTO);
+        } else {
+            System.out.println("조회결과가 없습니다!");
+        }
+    }
 
     /**
      * 도서조회 메서드
