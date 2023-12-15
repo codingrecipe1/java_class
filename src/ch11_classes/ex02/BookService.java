@@ -1,6 +1,10 @@
 package ch11_classes.ex02;
 
+import java.util.Scanner;
+
 public class BookService {
+    Scanner scanner = new Scanner(System.in);
+    BookRepository bookRepository = new BookRepository();
     /**
      * 도서등록 메서드
      * name: save
@@ -11,6 +15,23 @@ public class BookService {
      *      BookDTO 객체에 담아서 Repository로 전달하여 저장이 되도록 함
      *      등록 여부를 출력한다.(등록성공 or 등록실패)
      */
+    public void save() {
+        System.out.print("도서명: ");
+        String bookTitle = scanner.next();
+        System.out.print("저자: ");
+        String bookAuthor = scanner.next();
+        System.out.print("가격: ");
+        int bookPrice = scanner.nextInt();
+        System.out.print("출판사: ");
+        String bookPublisher = scanner.next();
+        BookDTO bookDTO = new BookDTO(bookTitle, bookAuthor, bookPrice, bookPublisher);
+        boolean result = bookRepository.save(bookDTO);
+        if (result) {
+            System.out.println("등록 성공");
+        } else {
+            System.out.println("등록 실패");
+        }
+    }
 
     /**
      * 도서목록 메서드
