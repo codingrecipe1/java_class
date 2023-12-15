@@ -45,6 +45,25 @@ public class StudentRepository {
     public List<StudentDTO> method4() {
         return studentDTOList;
     }
+
+    /**
+     * name: method5
+     * parameter: Long
+     * return: StudentDTO
+     */
+    public StudentDTO method5(Long id) {
+        // id와 일치하는 데이터가 있으면 해당 DTO 객체를 리턴하고
+        // 없으면 null을 리턴함
+        StudentDTO studentDTO = null;
+        for (int i = 0; i < studentDTOList.size(); i++) {
+            if (id.equals(studentDTOList.get(i).getId())) {
+                studentDTO = studentDTOList.get(i);
+            }
+        }
+        return studentDTO;
+    }
+
+
 }
 
 

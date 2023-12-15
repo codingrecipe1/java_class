@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스 분리 예제 - 등록기능">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스 분리 예제 - 목록 출력 기능">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -471,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702602645360</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="클래스 분리 예제 - 목록 출력 기능">
+      <option name="closed" value="true" />
+      <created>1702603364044</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1702603364044</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="배열 예제(숫자찾기)" />
     <MESSAGE value="배열 예제(거스름돈)" />
     <MESSAGE value="배열 예제(정렬)" />
     <MESSAGE value="배열 예제(학생성적관리)" />
@@ -511,6 +519,7 @@
     <MESSAGE value="클래스 분리 예제 - 메인 메뉴 구성" />
     <MESSAGE value="클래스 분리 예제 - method 호출 연습" />
     <MESSAGE value="클래스 분리 예제 - 등록기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="클래스 분리 예제 - 등록기능" />
+    <MESSAGE value="클래스 분리 예제 - 목록 출력 기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="클래스 분리 예제 - 목록 출력 기능" />
   </component>
 </project>

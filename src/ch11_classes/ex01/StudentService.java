@@ -1,9 +1,11 @@
 package ch11_classes.ex01;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class StudentService {
     StudentRepository studentRepository = new StudentRepository();
+    Scanner scanner = new Scanner(System.in);
     /**
      * method name: method1
      * parameter: x
@@ -46,6 +48,26 @@ public class StudentService {
         for (StudentDTO studentDTO: studentDTOList) {
             System.out.println("studentDTO = " + studentDTO);
         }
+    }
+
+    /**
+     * 조회할 id를 입력받고
+     * id를 repository로 전달하고
+     * repository로 부터 id에 해당하는 학생정보를 리턴받고
+     * 학생 정보를 출력
+     */
+    public void method5() {
+        System.out.print("조회할 id: ");
+        Long id = scanner.nextLong();
+        StudentDTO studentDTO = studentRepository.method5(id);
+        if (studentDTO != null) {
+            // 조회결과 있음
+            System.out.println("studentDTO = " + studentDTO);
+        } else {
+            // 조회결과 없음
+            System.out.println("요청하신 정보를 찾을 수 없습니다.");
+        }
+
     }
 
 
