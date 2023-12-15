@@ -38,6 +38,13 @@ public class StudentRepository {
 //        return result;
         return studentDTOList.add(studentDTO);
     }
+
+    /**
+     * return type: List
+     */
+    public List<StudentDTO> method4() {
+        return studentDTOList;
+    }
 }
 
 
