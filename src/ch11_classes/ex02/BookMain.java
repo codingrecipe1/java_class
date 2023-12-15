@@ -1,7 +1,5 @@
 package ch11_classes.ex02;
 
-import ch11_classes.ex01.StudentService;
-
 import java.util.Scanner;
 
 public class BookMain {
