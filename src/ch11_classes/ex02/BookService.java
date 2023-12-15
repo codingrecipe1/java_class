@@ -127,6 +127,17 @@ public class BookService {
             System.out.println("조회결과가 없습니다!");
         }
     }
+
+    public void delete() {
+        System.out.print("삭제할 id: ");
+        Long id = scanner.nextLong();
+        boolean result = bookRepository.delete(id);
+        if (result) {
+            System.out.println("삭제 성공");
+        } else {
+            System.out.println("삭제 실패");
+        }
+    }
 }
 
 

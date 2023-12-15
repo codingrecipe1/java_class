@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 - 도서검색기능">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 - 도서수정기능">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" afterDir="false" />
@@ -135,14 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00003" summary="for문 예제">
-      <option name="closed" value="true" />
-      <created>1701737512893</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1701737512893</updated>
     </task>
     <task id="LOCAL-00004" summary="for문 예제">
       <option name="closed" value="true" />
@@ -528,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702623245938</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="도서 관리 예제 - 도서수정기능">
+      <option name="closed" value="true" />
+      <created>1702624634463</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1702624634463</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체지향-method 연습" />
     <MESSAGE value="객체지향-method 연습(계산기)" />
     <MESSAGE value="객체지향-클래스활용" />
     <MESSAGE value="패키지이름변경" />
@@ -568,6 +567,7 @@
     <MESSAGE value="도서 관리 예제 - 도서조회기능" />
     <MESSAGE value="도서 관리 예제 - 도서조회기능(제목)" />
     <MESSAGE value="도서 관리 예제 - 도서검색기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 - 도서검색기능" />
+    <MESSAGE value="도서 관리 예제 - 도서수정기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 - 도서수정기능" />
   </component>
 </project>

@@ -33,6 +33,7 @@ public class BookMain {
                 bookService.update();
             } else if (selectNo == 6) {
                 // 호출하는 문장 작성
+                bookService.delete();
             } else if (selectNo == 7) {
                 // 호출하는 문장 작성
                 bookService.search();
