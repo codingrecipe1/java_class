@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 - 도서조회기능">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 - 도서조회기능(제목)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookService.java" afterDir="false" />
@@ -50,20 +51,7 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch11_classes.ex01.StudentMain">
-    <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex11.BoardMain" />
-      <module name="java_class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch10_class.ex11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ch11_classes.ex02.BookMain">
     <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch11_array.ex03.BookMain" />
       <module name="java_class" />
@@ -116,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ch11_classes.ex02.BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11_classes.ex02.BookMain" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch11_classes.ex02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch11_classes.ex02.BookMain" />
         <item itemvalue="Application.ch11_classes.ex01.StudentMain" />
         <item itemvalue="Application.BookMain" />
         <item itemvalue="Application.StudentMain" />
         <item itemvalue="Application.Ex01_ListBasic" />
-        <item itemvalue="Application.BoardMain" />
       </list>
     </recent_temporary>
   </component>
@@ -134,14 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00001" summary="switch case">
-      <option name="closed" value="true" />
-      <created>1701668785143</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1701668785144</updated>
     </task>
     <task id="LOCAL-00002" summary="for문 시작">
       <option name="closed" value="true" />
@@ -527,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702621567102</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="도서 관리 예제 - 도서조회기능(제목)">
+      <option name="closed" value="true" />
+      <created>1702621874264</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1702621874264</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체지향 시작-3" />
     <MESSAGE value="객체지향 시작-method" />
     <MESSAGE value="객체지향-method 연습" />
     <MESSAGE value="객체지향-method 연습(계산기)" />
@@ -567,6 +567,7 @@
     <MESSAGE value="도서 관리 예제 - 도서등록기능" />
     <MESSAGE value="도서 관리 예제 - 도서목록기능" />
     <MESSAGE value="도서 관리 예제 - 도서조회기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 - 도서조회기능" />
+    <MESSAGE value="도서 관리 예제 - 도서조회기능(제목)" />
+    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 - 도서조회기능(제목)" />
   </component>
 </project>

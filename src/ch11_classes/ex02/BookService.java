@@ -92,4 +92,27 @@ public class BookService {
             System.out.println("조회결과가 없습니다!");
         }
     }
+
+    public void search() {
+        System.out.print("검색어: ");
+        String bookTitle = scanner.next();
+        List<BookDTO> bookDTOList = bookRepository.search(bookTitle);
+        if (bookDTOList.size() > 0) {
+            for (BookDTO bookDTO: bookDTOList) {
+                System.out.println("bookDTO = " + bookDTO);
+            }
+        } else {
+            // bookDTOList.size() == 0 => 결과가 없다
+            System.out.println("검색 결과가 없습니다!");
+        }
+    }
 }
+
+
+
+
+
+
+
+
+

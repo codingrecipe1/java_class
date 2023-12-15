@@ -12,7 +12,7 @@ public class BookMain {
 
         while (run) {
             System.out.println("-----------------------------------------------------------------------------------------");
-            System.out.println("1.도서등록 | 2.도서목록 | 3.도서조회(id) | 4.도서조회(제목) | 5.가격수정 | 6.도서삭제 | 0.종료");
+            System.out.println("1.도서등록 | 2.도서목록 | 3.도서조회(id) | 4.도서조회(제목) | 5.가격수정 | 6.도서삭제 | 7.도서검색 | 0.종료");
             System.out.println("-----------------------------------------------------------------------------------------");
             System.out.print("선택> ");
             selectNo = scan.nextInt();
@@ -32,6 +32,9 @@ public class BookMain {
                 // 호출하는 문장 작성
             } else if (selectNo == 6) {
                 // 호출하는 문장 작성
+            } else if (selectNo == 7) {
+                // 호출하는 문장 작성
+                bookService.search();
             } else if (selectNo == 0) {
                 run = false;
             }

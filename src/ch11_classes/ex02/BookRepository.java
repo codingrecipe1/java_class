@@ -76,4 +76,30 @@ public class BookRepository {
         }
         return bookDTO;
     }
+
+    public List<BookDTO> search(String bookTitle) {
+        // 검색결과를 담을 List 선언
+        List<BookDTO> bookDTOS = new ArrayList<>();
+        for (int i = 0; i < bookDTOList.size(); i++) {
+            // 저장되어 있는 도서명에 검색어가 포함되어 있으면 true
+            if (bookDTOList.get(i).getBookTitle().contains(bookTitle)) {
+                // 조건을 만족하면 bookDTOS 에 추가
+//                bookDTOS.add(bookDTOList.get(i));
+                BookDTO bookDTO = bookDTOList.get(i);
+                bookDTOS.add(bookDTO);
+            }
+        }
+        return bookDTOS;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
