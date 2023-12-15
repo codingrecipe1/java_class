@@ -91,6 +91,17 @@ public class BookRepository {
         }
         return bookDTOS;
     }
+
+    public boolean update(Long id, int bookPrice) {
+        boolean result = false;
+        for (int i = 0; i < bookDTOList.size(); i++) {
+            if (id.equals(bookDTOList.get(i).getId())) {
+                bookDTOList.get(i).setBookPrice(bookPrice);
+                result = true;
+            }
+        }
+        return result;
+    }
 }
 
 
