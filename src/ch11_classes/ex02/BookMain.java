@@ -21,6 +21,7 @@ public class BookMain {
                 bookService.save();
             } else if (selectNo == 2) {
                 // 호출하는 문장 작성
+                bookService.findAll();
             } else if (selectNo == 3) {
                 // 호출하는 문장 작성
             } else if (selectNo == 4) {

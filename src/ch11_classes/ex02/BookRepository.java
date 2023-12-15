@@ -18,6 +18,7 @@ public class BookRepository {
         return bookDTOList.add(bookDTO);
     }
 
+
     /**
      * 도서목록 메서드
      * name: findAll
@@ -26,6 +27,9 @@ public class BookRepository {
      * 실행내용
      *      Service로 부터 호출되면 리스트를 리턴
      */
+    public List<BookDTO> findAll() {
+        return bookDTOList;
+    }
 
     /**
      * 도서조회 메서드
