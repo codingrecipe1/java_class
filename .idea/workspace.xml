@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 - 도서목록기능">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 - 도서조회기능">
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex02/BookService.java" afterDir="false" />
@@ -520,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702620908113</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="도서 관리 예제 - 도서조회기능">
+      <option name="closed" value="true" />
+      <created>1702621567102</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1702621567102</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체지향 시작-2" />
     <MESSAGE value="객체지향 시작-3" />
     <MESSAGE value="객체지향 시작-method" />
     <MESSAGE value="객체지향-method 연습" />
@@ -560,6 +566,7 @@
     <MESSAGE value="도서 관리 예제 - DTO 정의" />
     <MESSAGE value="도서 관리 예제 - 도서등록기능" />
     <MESSAGE value="도서 관리 예제 - 도서목록기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 - 도서목록기능" />
+    <MESSAGE value="도서 관리 예제 - 도서조회기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 - 도서조회기능" />
   </component>
 </project>

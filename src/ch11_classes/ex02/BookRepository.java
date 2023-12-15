@@ -57,6 +57,7 @@ public class BookRepository {
         return bookDTO;
     }
 
+
     /**
      * 도서조회 메서드
      * name: findByTitle
@@ -66,4 +67,13 @@ public class BookRepository {
      *      Service로 부터 도서제목을 전달받고 일치하는 결과를 찾아서 DTO를 리턴
      *      없으면 null 리턴
      */
+    public BookDTO findByTitle(String bookTitle) {
+        BookDTO bookDTO = null;
+        for (int i = 0; i < bookDTOList.size(); i++) {
+            if (bookTitle.equals(bookDTOList.get(i).getBookTitle())) {
+                bookDTO = bookDTOList.get(i);
+            }
+        }
+        return bookDTO;
+    }
 }

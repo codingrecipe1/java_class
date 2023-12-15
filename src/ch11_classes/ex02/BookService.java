@@ -72,6 +72,7 @@ public class BookService {
         }
     }
 
+
     /**
      * 도서조회 메서드
      * name: findByTitle
@@ -81,4 +82,14 @@ public class BookService {
      *      도서제목을 입력받고 Repository로 부터 해당 하는 도서 정보를 출력(제목이 정확히 일치하는 것만)
      *      없으면 없다고 출력
      */
+    public void findByTitle() {
+        System.out.print("도서명: ");
+        String bookTitle = scanner.next();
+        BookDTO bookDTO = bookRepository.findByTitle(bookTitle);
+        if (bookDTO != null) {
+            System.out.println("bookDTO = " + bookDTO);
+        } else {
+            System.out.println("조회결과가 없습니다!");
+        }
+    }
 }
