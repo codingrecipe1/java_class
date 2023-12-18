@@ -19,6 +19,10 @@ public class MemberRepository {
         }
         return memberDTO;
     }
+
+    public List<MemberDTO> findAll() {
+        return memberDTOList;
+    }
 }
 
 

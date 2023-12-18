@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원 프로젝트 - 회원가입 기능 완료">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원 프로젝트 - 로그인 기능 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberRepository.java" afterDir="false" />
@@ -138,14 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00008" summary="random 메서드, 형변환">
-      <option name="closed" value="true" />
-      <created>1701825874292</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1701825874292</updated>
     </task>
     <task id="LOCAL-00009" summary="while 예제">
       <option name="closed" value="true" />
@@ -531,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702876127843</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="회원 프로젝트 - 로그인 기능 완료">
+      <option name="closed" value="true" />
+      <created>1702876758469</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1702876758469</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="클래스연습-회원 완성" />
     <MESSAGE value="클래스연습-게시판 시작" />
     <MESSAGE value="클래스연습-게시판 완료" />
     <MESSAGE value="ArrayList" />
@@ -571,6 +570,7 @@
     <MESSAGE value="회원 프로젝트 - 시작" />
     <MESSAGE value="회원 프로젝트 - 기본 구성 완료" />
     <MESSAGE value="회원 프로젝트 - 회원가입 기능 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원 프로젝트 - 회원가입 기능 완료" />
+    <MESSAGE value="회원 프로젝트 - 로그인 기능 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원 프로젝트 - 로그인 기능 완료" />
   </component>
 </project>
