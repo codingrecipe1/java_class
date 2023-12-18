@@ -45,6 +45,17 @@ public class MemberRepository {
         }
         return result;
     }
+
+    public boolean emailCheck(String memberEmail) {
+        boolean result = true;
+        for (int i = 0; i < memberDTOList.size(); i++) {
+            if (memberEmail.equals(memberDTOList.get(i).getMemberEmail())) {
+                // 중복되는 이메일이 있다 => 결과를 false로 주자
+                result = false;
+            }
+        }
+        return result;
+    }
 }
 
 

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원 프로젝트 - 회원정보수정 기능 완료">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원 프로젝트 - 로그아웃 기능 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberService.java" afterDir="false" />
     </list>
@@ -54,7 +53,7 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch11_classes.ex02.BookMain">
+  <component name="RunManager" selected="Application.MemberMain">
     <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch11_array.ex03.BookMain" />
       <module name="java_class" />
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex01_ListBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_array.Ex01_ListBasic" />
+    <configuration name="MemberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch11_classes.ex03_member.MemberMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_array.*" />
+          <option name="PATTERN" value="ch11_classes.ex03_member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberMain" />
         <item itemvalue="Application.ch11_classes.ex02.BookMain" />
         <item itemvalue="Application.ch11_classes.ex01.StudentMain" />
         <item itemvalue="Application.BookMain" />
         <item itemvalue="Application.StudentMain" />
-        <item itemvalue="Application.Ex01_ListBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -138,22 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00011" summary="while 예제(음수양수합계)">
-      <option name="closed" value="true" />
-      <created>1701847206980</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1701847206980</updated>
-    </task>
-    <task id="LOCAL-00012" summary="while 은행예제">
-      <option name="closed" value="true" />
-      <created>1701910559049</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1701910559049</updated>
     </task>
     <task id="LOCAL-00013" summary="String 예제">
       <option name="closed" value="true" />
@@ -531,7 +514,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702877642096</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="회원 프로젝트 - 회원탈퇴 기능 완료">
+      <option name="closed" value="true" />
+      <created>1702878502469</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1702878502469</updated>
+    </task>
+    <task id="LOCAL-00061" summary="회원 프로젝트 - 로그아웃 기능 완료">
+      <option name="closed" value="true" />
+      <created>1702879416528</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1702879416528</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,8 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayList" />
-    <MESSAGE value="ArrayList - 객체저장" />
     <MESSAGE value="ArrayList - Book 객체" />
     <MESSAGE value="ArrayList - Book 객체, static" />
     <MESSAGE value="클래스 분리 예제" />
@@ -571,6 +568,8 @@
     <MESSAGE value="회원 프로젝트 - 로그인 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원목록 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원정보수정 기능 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원 프로젝트 - 회원정보수정 기능 완료" />
+    <MESSAGE value="회원 프로젝트 - 회원탈퇴 기능 완료" />
+    <MESSAGE value="회원 프로젝트 - 로그아웃 기능 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원 프로젝트 - 로그아웃 기능 완료" />
   </component>
 </project>

@@ -9,8 +9,21 @@ public class MemberService {
     private static String loginEmail = null;
 
     public void save() {
-        System.out.print("이메일: ");
-        String memberEmail = scanner.next();
+        // 중복체크 결과를 담을 변수
+        boolean checkResult = false;
+        String memberEmail = null;
+        do {
+            System.out.print("이메일: ");
+            memberEmail = scanner.next();
+            // checkResult가 true => 사용가능(반복문 종료), checkResult가 false => 사용불가(다시 이메일입력)
+            checkResult = memberRepository.emailCheck(memberEmail);
+            if (checkResult) {
+                System.out.println("사용 가능한 이메일 입니다.");
+            } else {
+                System.out.println("이미 사용 중인 이메일 입니다. 다른 이메일을 입력해주세요.");
+            }
+        } while (!checkResult); // checkResult 값이 false라면 계속 반복되도록
+
         System.out.print("비밀번호: ");
         String memberPassword = scanner.next();
         System.out.print("이름: ");
