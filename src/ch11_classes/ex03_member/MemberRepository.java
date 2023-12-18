@@ -23,6 +23,17 @@ public class MemberRepository {
     public List<MemberDTO> findAll() {
         return memberDTOList;
     }
+
+    public boolean update(String loginEmail, String mobile) {
+        boolean result = false;
+        for (int i = 0; i < memberDTOList.size(); i++) {
+            if (loginEmail.equals(memberDTOList.get(i).getMemberEmail())) {
+                memberDTOList.get(i).setMemberMobile(mobile);
+                result = true;
+            }
+        }
+        return result;
+    }
 }
 
 

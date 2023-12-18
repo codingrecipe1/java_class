@@ -47,6 +47,21 @@ public class MemberService {
             System.out.println("memberDTO = " + memberDTO);
         }
     }
+
+    public void update() {
+        if (loginEmail != null) {
+            System.out.print("수정할 전화번호: ");
+            String mobile = scanner.next();
+            boolean result = memberRepository.update(loginEmail, mobile);
+            if (result) {
+                System.out.println("회원정보가 수정되었습니다.");
+            } else {
+                System.out.println("수정 실패!");
+            }
+        } else {
+            System.out.println("로그인 해주세요!");
+        }
+    }
 }
 
 

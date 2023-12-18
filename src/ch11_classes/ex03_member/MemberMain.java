@@ -26,7 +26,7 @@ public class MemberMain {
                 memberService.findAll();
             } else if (selectNo == 4) {
                 // 호출하는 문장 작성
-
+                memberService.update();
             } else if (selectNo == 5) {
                 // 호출하는 문장 작성
 
