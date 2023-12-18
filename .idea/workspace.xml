@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 - 도서삭제기능">
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/README.md" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원 프로젝트 - 시작">
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -134,14 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00005" summary="중첩 for문, 구구단예제">
-      <option name="closed" value="true" />
-      <created>1701750452577</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1701750452577</updated>
     </task>
     <task id="LOCAL-00006" summary="for 마무리">
       <option name="closed" value="true" />
@@ -527,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702624966766</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="회원 프로젝트 - 시작">
+      <option name="closed" value="true" />
+      <created>1702859251580</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1702859251581</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체지향-클래스활용" />
     <MESSAGE value="패키지이름변경" />
     <MESSAGE value="클래스연습-회원" />
     <MESSAGE value="클래스연습-회원 완성" />
@@ -567,6 +571,7 @@
     <MESSAGE value="도서 관리 예제 - 도서검색기능" />
     <MESSAGE value="도서 관리 예제 - 도서수정기능" />
     <MESSAGE value="도서 관리 예제 - 도서삭제기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 - 도서삭제기능" />
+    <MESSAGE value="회원 프로젝트 - 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원 프로젝트 - 시작" />
   </component>
 </project>
