@@ -32,7 +32,7 @@ public class MemberMain {
                 memberService.delete();
             } else if (selectNo == 6) {
                 // 호출하는 문장 작성
-
+                memberService.logout();
             } else if (selectNo == 0) {
                 run = false;
             }

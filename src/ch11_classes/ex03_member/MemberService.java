@@ -83,6 +83,11 @@ public class MemberService {
             System.out.println("로그인 해주세요!");
         }
     }
+
+    public void logout() {
+        loginEmail = null;
+        System.out.println("로그아웃 되었습니다");
+    }
 }
 
 
