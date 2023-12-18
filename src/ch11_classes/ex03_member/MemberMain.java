@@ -1,7 +1,5 @@
 package ch11_classes.ex03_member;
 
-import ch11_classes.ex02.BookService;
-
 import java.util.Scanner;
 
 public class MemberMain {
@@ -9,7 +7,6 @@ public class MemberMain {
         Scanner scan = new Scanner(System.in);
         boolean run = true;
         int selectNo = 0;
-        // bookService 클래스 객체 선언
         MemberService memberService = new MemberService();
 
         while (run) {
@@ -20,7 +17,7 @@ public class MemberMain {
             selectNo = scan.nextInt();
             if (selectNo == 1) {
                 // 호출하는 문장 작성
-
+                memberService.save();
             } else if (selectNo == 2) {
                 // 호출하는 문장 작성
 
