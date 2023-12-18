@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MemberService {
     Scanner scanner = new Scanner(System.in);
     MemberRepository memberRepository = new MemberRepository();
+    private static String loginEmail = null;
 
     public void save() {
         System.out.print("이메일: ");
@@ -23,4 +24,31 @@ public class MemberService {
             System.out.println("회원가입 실패");
         }
     }
+
+    public void login() {
+        System.out.print("이메일: ");
+        String memberEmail = scanner.next();
+        System.out.print("비밀번호: ");
+        String memberPassword = scanner.next();
+        MemberDTO loginResult = memberRepository.login(memberEmail, memberPassword);
+        if (loginResult != null) {
+            System.out.println("로그인 성공");
+            System.out.println(memberEmail + "님 환영합니다!");
+            loginEmail = memberEmail;
+        } else {
+            System.out.println("이메일 또는 비밀번호가 틀립니다!");
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
