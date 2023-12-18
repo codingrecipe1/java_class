@@ -29,7 +29,7 @@ public class MemberMain {
                 memberService.update();
             } else if (selectNo == 5) {
                 // 호출하는 문장 작성
-
+                memberService.delete();
             } else if (selectNo == 6) {
                 // 호출하는 문장 작성
 

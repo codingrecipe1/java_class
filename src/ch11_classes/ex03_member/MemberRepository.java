@@ -34,6 +34,17 @@ public class MemberRepository {
         }
         return result;
     }
+
+    public boolean delete(String loginEmail) {
+        boolean result = false;
+        for (int i = 0; i < memberDTOList.size(); i++) {
+            if (loginEmail.equals(memberDTOList.get(i).getMemberEmail())) {
+                memberDTOList.remove(i);
+                result = true;
+            }
+        }
+        return result;
+    }
 }
 
 

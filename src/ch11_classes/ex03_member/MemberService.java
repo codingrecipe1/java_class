@@ -62,6 +62,27 @@ public class MemberService {
             System.out.println("로그인 해주세요!");
         }
     }
+
+    public void delete() {
+        if (loginEmail != null) {
+            System.out.println("진짜 탈퇴하실 건가요?");
+            System.out.print("비밀번호: ");
+            String memberPassword = scanner.next();
+            MemberDTO memberDTO = memberRepository.login(loginEmail, memberPassword);
+            if (memberDTO != null) {
+                boolean result = memberRepository.delete(loginEmail);
+                if (result) {
+                    System.out.println("회원탈퇴가 정상적으로 처리되었습니다! 그동안 감사했습니다!");
+                } else {
+                    System.out.println("탈퇴가 처리되지 않았습니다! 다시 시도해 주시기 바랍니다!");
+                }
+            } else {
+                System.out.println("비밀번호가 일치하지 않습니다! 메인메뉴로 돌아갑니다!");
+            }
+        } else {
+            System.out.println("로그인 해주세요!");
+        }
+    }
 }
 
 
