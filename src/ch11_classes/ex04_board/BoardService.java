@@ -26,10 +26,11 @@ public class BoardService {
 
     public void findAll() {
         List<BoardDTO> boardDTOList = boardRepository.findAll();
-        System.out.println("id\t" + "title\t" + "writer\t" + "hits\t");
+        System.out.println("id\t" + "title\t" + "writer\t" + "hits\t" + "date\t");
         for (BoardDTO boardDTO: boardDTOList) {
             System.out.println(boardDTO.getId() + "\t" + boardDTO.getBoardTitle() + "\t" +
-                    boardDTO.getBoardWriter() + "\t" + boardDTO.getBoardHits() + "\t");
+                    boardDTO.getBoardWriter() + "\t" + boardDTO.getBoardHits() + "\t" +
+                    boardDTO.getCreatedAt() + "\t");
         }
     }
 
@@ -103,10 +104,11 @@ public class BoardService {
         List<BoardDTO> searchList = boardRepository.search(q);
         if (searchList.size() > 0) {
             System.out.println("검색 결과");
-            System.out.println("id\t" + "title\t" + "writer\t" + "hits\t");
+            System.out.println("id\t" + "title\t" + "writer\t" + "hits\t" + "date\t");
             for (BoardDTO boardDTO: searchList) {
                 System.out.println(boardDTO.getId() + "\t" + boardDTO.getBoardTitle() + "\t" +
-                        boardDTO.getBoardWriter() + "\t" + boardDTO.getBoardHits() + "\t");
+                        boardDTO.getBoardWriter() + "\t" + boardDTO.getBoardHits() + "\t" +
+                        boardDTO.getCreatedAt() + "\t");
             }
         } else {
             System.out.println("검색결과가 없습니다!");

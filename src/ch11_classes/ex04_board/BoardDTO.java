@@ -1,5 +1,8 @@
 package ch11_classes.ex04_board;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class BoardDTO {
     private Long id;
     private String boardTitle;
@@ -7,6 +10,7 @@ public class BoardDTO {
     private String boardPass;
     private String boardContents;
     private int boardHits = 0;
+    private String createdAt;
 
     public Long getId() {
         return id;
@@ -56,6 +60,14 @@ public class BoardDTO {
         this.boardHits = boardHits;
     }
 
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
+    }
+
     public BoardDTO() {
 
     }
@@ -69,6 +81,7 @@ public class BoardDTO {
         this.boardPass = boardPass;
         this.boardContents = boardContents;
         this.boardHits = 0;
+        this.createdAt = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
     }
 
     @Override
@@ -80,6 +93,7 @@ public class BoardDTO {
                 ", boardPass='" + boardPass + '\'' +
                 ", boardContents='" + boardContents + '\'' +
                 ", boardHits=" + boardHits +
+                ", createdAt='" + createdAt + '\'' +
                 '}';
     }
 }
