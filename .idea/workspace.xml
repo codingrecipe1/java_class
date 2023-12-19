@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원 프로젝트 - 이메일 중복체크 기능 완료 및 완성">
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/README.md" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="게시판 프로젝트 - 시작">
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +52,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch11_classes.ex04_board" />
       <recent name="ch10_class.ex3" />
     </key>
   </component>
@@ -136,14 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00014" summary="배열 시작">
-      <option name="closed" value="true" />
-      <created>1701927003663</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1701927003663</updated>
     </task>
     <task id="LOCAL-00015" summary="배열 예제">
       <option name="closed" value="true" />
@@ -529,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702880334222</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="게시판 프로젝트 - 시작">
+      <option name="closed" value="true" />
+      <created>1702942675056</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1702942675056</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayList - Book 객체, static" />
     <MESSAGE value="클래스 분리 예제" />
     <MESSAGE value="클래스 분리 예제 - 메인 메뉴 구성" />
     <MESSAGE value="클래스 분리 예제 - method 호출 연습" />
@@ -569,6 +572,7 @@
     <MESSAGE value="회원 프로젝트 - 회원탈퇴 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 로그아웃 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 이메일 중복체크 기능 완료 및 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원 프로젝트 - 이메일 중복체크 기능 완료 및 완성" />
+    <MESSAGE value="게시판 프로젝트 - 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시판 프로젝트 - 시작" />
   </component>
 </project>
