@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="게시판 프로젝트 - 글검색 기능 완료">
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/Ex_Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardDTO.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="게시판 프로젝트 - 작성시간 필드 추가">
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,14 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00023" summary="객체지향 시작-3">
-      <option name="closed" value="true" />
-      <created>1702342450411</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1702342450411</updated>
     </task>
     <task id="LOCAL-00024" summary="객체지향 시작-method">
       <option name="closed" value="true" />
@@ -532,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702966633547</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="게시판 프로젝트 - 작성시간 필드 추가">
+      <option name="closed" value="true" />
+      <created>1702968227912</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1702968227912</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="도서 관리 예제 - DTO 정의" />
     <MESSAGE value="도서 관리 예제 - 도서등록기능" />
     <MESSAGE value="도서 관리 예제 - 도서목록기능" />
     <MESSAGE value="도서 관리 예제 - 도서조회기능" />
@@ -572,6 +568,7 @@
     <MESSAGE value="게시판 프로젝트 - 글수정 기능 완료" />
     <MESSAGE value="게시판 프로젝트 - 글삭제 기능 완료" />
     <MESSAGE value="게시판 프로젝트 - 글검색 기능 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="게시판 프로젝트 - 글검색 기능 완료" />
+    <MESSAGE value="게시판 프로젝트 - 작성시간 필드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시판 프로젝트 - 작성시간 필드 추가" />
   </component>
 </project>
