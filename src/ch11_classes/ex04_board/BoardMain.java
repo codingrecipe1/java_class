@@ -16,7 +16,7 @@ public class BoardMain {
             System.out.print("선택> ");
             selectNo = scan.nextInt();
             if (selectNo == 1) {
-
+                boardService.save();
             } else if (selectNo == 2) {
 
             } else if (selectNo == 3) {

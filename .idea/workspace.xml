@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="게시판 프로젝트 - 시작">
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardService.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="게시판 프로젝트 - 프로젝트 세팅">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberMain">
+  <component name="RunManager">
     <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch11_array.ex03.BookMain" />
       <module name="java_class" />
@@ -140,22 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00015" summary="배열 예제">
-      <option name="closed" value="true" />
-      <created>1701929619233</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1701929619233</updated>
-    </task>
-    <task id="LOCAL-00016" summary="배열 예제(숫자찾기)">
-      <option name="closed" value="true" />
-      <created>1701931748763</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1701931748763</updated>
     </task>
     <task id="LOCAL-00017" summary="배열 예제(거스름돈)">
       <option name="closed" value="true" />
@@ -533,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702942675056</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="게시판 프로젝트 - 프로젝트 세팅">
+      <option name="closed" value="true" />
+      <created>1702947169226</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1702947169226</updated>
+    </task>
+    <task id="LOCAL-00065" summary="게시판 프로젝트 - 프로젝트 세팅">
+      <option name="closed" value="true" />
+      <created>1702947233403</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1702947233403</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="클래스 분리 예제" />
     <MESSAGE value="클래스 분리 예제 - 메인 메뉴 구성" />
     <MESSAGE value="클래스 분리 예제 - method 호출 연습" />
     <MESSAGE value="클래스 분리 예제 - 등록기능" />
@@ -573,6 +572,7 @@
     <MESSAGE value="회원 프로젝트 - 로그아웃 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 이메일 중복체크 기능 완료 및 완성" />
     <MESSAGE value="게시판 프로젝트 - 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="게시판 프로젝트 - 시작" />
+    <MESSAGE value="게시판 프로젝트 - 프로젝트 세팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시판 프로젝트 - 프로젝트 세팅" />
   </component>
 </project>
