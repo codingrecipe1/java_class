@@ -32,4 +32,18 @@ public class BoardService {
                     boardDTO.getBoardWriter() + "\t" + boardDTO.getBoardHits() + "\t");
         }
     }
+
+    public void findById() {
+        System.out.print("조회 id: ");
+        Long id = scanner.nextLong();
+        // 1. 조회수를 1 증가
+        boolean result = boardRepository.updateHits(id);
+        // 2. 상세내용 가져옴
+        if (result) {
+            BoardDTO boardDTO = boardRepository.findById(id);
+            System.out.println("boardDTO = " + boardDTO);
+        } else {
+            System.out.println("요청하신 게시글은 존재하지 않습니다!");
+        }
+    }
 }

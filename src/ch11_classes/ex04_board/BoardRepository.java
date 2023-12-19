@@ -12,4 +12,28 @@ public class BoardRepository {
     public List<BoardDTO> findAll() {
         return boardDTOList;
     }
+
+    public boolean updateHits(Long id) {
+        for (int i = 0; i < boardDTOList.size(); i++) {
+            if (id.equals(boardDTOList.get(i).getId())) {
+                // 기존 조회수 값을 가져옴
+                int hits = boardDTOList.get(i).getBoardHits();
+                // 1 증가 시킴
+                hits = hits + 1;
+                // 조회수 필드에 저장
+                boardDTOList.get(i).setBoardHits(hits);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public BoardDTO findById(Long id) {
+        for (int i = 0; i < boardDTOList.size(); i++) {
+            if (id.equals(boardDTOList.get(i).getId())) {
+                return boardDTOList.get(i);
+            }
+        }
+        return null;
+    }
 }
