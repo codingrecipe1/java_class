@@ -75,4 +75,25 @@ public class BoardService {
             System.out.println("요청하신 게시글은 존재하지 않습니다!");
         }
     }
+
+    public void delete() {
+        System.out.print("수정할 id: ");
+        Long id = scanner.nextLong();
+        System.out.print("비밀번호: ");
+        String boardPass = scanner.next();
+        BoardDTO boardDTO = boardRepository.findById(id);
+        if (boardDTO != null) {
+            if (boardPass.equals(boardDTO.getBoardPass())) {
+                boolean result = boardRepository.delete(id);
+                if (result) {
+                    System.out.println("삭제 완료");
+                } else {
+                    System.out.println("삭제 실패");
+                }
+            } else {
+                System.out.println("비밀번호가 일치하지 않습니다!");
+            }
+            System.out.println("요청하신 게시글은 존재하지 않습니다!");
+        }
+    }
 }

@@ -5,6 +5,7 @@ import java.util.List;
 
 public class BoardRepository {
     private static List<BoardDTO> boardDTOList = new ArrayList<>();
+
     public boolean save(BoardDTO boardDTO) {
         return boardDTOList.add(boardDTO);
     }
@@ -42,6 +43,16 @@ public class BoardRepository {
             if (id.equals(boardDTOList.get(i).getId())) {
                 boardDTOList.get(i).setBoardTitle(boardTitle);
                 boardDTOList.get(i).setBoardContents(boardContents);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean delete(Long id) {
+        for (int i = 0; i < boardDTOList.size(); i++) {
+            if (id.equals(boardDTOList.get(i).getId())) {
+                boardDTOList.remove(i);
                 return true;
             }
         }
