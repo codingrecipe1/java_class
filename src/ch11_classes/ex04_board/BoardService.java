@@ -96,4 +96,31 @@ public class BoardService {
             System.out.println("요청하신 게시글은 존재하지 않습니다!");
         }
     }
+
+    public void search() {
+        System.out.print("검색어: ");
+        String q = scanner.next();
+        List<BoardDTO> searchList = boardRepository.search(q);
+        if (searchList.size() > 0) {
+            System.out.println("검색 결과");
+            System.out.println("id\t" + "title\t" + "writer\t" + "hits\t");
+            for (BoardDTO boardDTO: searchList) {
+                System.out.println(boardDTO.getId() + "\t" + boardDTO.getBoardTitle() + "\t" +
+                        boardDTO.getBoardWriter() + "\t" + boardDTO.getBoardHits() + "\t");
+            }
+        } else {
+            System.out.println("검색결과가 없습니다!");
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+

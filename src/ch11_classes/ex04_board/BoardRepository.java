@@ -58,4 +58,14 @@ public class BoardRepository {
         }
         return false;
     }
+
+    public List<BoardDTO> search(String q) {
+        List<BoardDTO> searchList = new ArrayList<>();
+        for (int i = 0; i < boardDTOList.size(); i++) {
+            if (boardDTOList.get(i).getBoardTitle().contains(q)) {
+                searchList.add(boardDTOList.get(i));
+            }
+        }
+        return searchList;
+    }
 }
