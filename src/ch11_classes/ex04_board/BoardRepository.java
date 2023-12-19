@@ -8,4 +8,8 @@ public class BoardRepository {
     public boolean save(BoardDTO boardDTO) {
         return boardDTOList.add(boardDTO);
     }
+
+    public List<BoardDTO> findAll() {
+        return boardDTOList;
+    }
 }

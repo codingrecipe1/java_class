@@ -1,5 +1,6 @@
 package ch11_classes.ex04_board;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class BoardService {
@@ -20,6 +21,15 @@ public class BoardService {
             System.out.println("글작성 완료");
         } else {
             System.out.println("글작성 실패");
+        }
+    }
+
+    public void findAll() {
+        List<BoardDTO> boardDTOList = boardRepository.findAll();
+        System.out.println("id\t" + "title\t" + "writer\t" + "hits\t");
+        for (BoardDTO boardDTO: boardDTOList) {
+            System.out.println(boardDTO.getId() + "\t" + boardDTO.getBoardTitle() + "\t" +
+                    boardDTO.getBoardWriter() + "\t" + boardDTO.getBoardHits() + "\t");
         }
     }
 }
