@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="은행 프로젝트">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="은행 프로젝트 - 주석">
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/common/CommonVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/dto/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/dto/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/BankRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/BankRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/BankService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +45,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/data&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/development/java/java_class/src/ch11_classes/ex06_memberboard",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch11_classes.ex06_memberboard.dto" />
       <recent name="ch11_classes.ex04_board" />
       <recent name="ch10_class.ex3" />
     </key>
@@ -138,14 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00027" summary="객체지향-method 연습(계산기)">
-      <option name="closed" value="true" />
-      <created>1702359924529</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1702359924529</updated>
     </task>
     <task id="LOCAL-00028" summary="객체지향-클래스활용">
       <option name="closed" value="true" />
@@ -531,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703115491319</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="은행 프로젝트 - 주석">
+      <option name="closed" value="true" />
+      <created>1703120112616</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1703120112616</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="도서 관리 예제 - 도서조회기능(제목)" />
     <MESSAGE value="도서 관리 예제 - 도서검색기능" />
     <MESSAGE value="도서 관리 예제 - 도서수정기능" />
     <MESSAGE value="도서 관리 예제 - 도서삭제기능" />
@@ -571,6 +582,7 @@
     <MESSAGE value="게시판 프로젝트 - 목록출력 전용 메서드 추가" />
     <MESSAGE value="게시판 프로젝트 - 테스트데이터 메서드 추가" />
     <MESSAGE value="은행 프로젝트" />
-    <option name="LAST_COMMIT_MESSAGE" value="은행 프로젝트" />
+    <MESSAGE value="은행 프로젝트 - 주석" />
+    <option name="LAST_COMMIT_MESSAGE" value="은행 프로젝트 - 주석" />
   </component>
 </project>
