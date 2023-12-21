@@ -94,8 +94,8 @@ public class BankService {
                 System.out.println("-----------------------------------------------------------------------");
                 System.out.print("선택> ");
                 selectNo = scanner.nextInt();
-                List<AccountDTO> accountDTOList = bankRepository.bankingList(accountNumber);
-                if (accountDTOList.size() > 0) {
+                List<AccountDTO> accountDTOList = bankRepository.bankingList(accountNumber); // 입력한 계좌번호에 해당하는 거래내역만
+                if (accountDTOList.size() > 0) { // 거래내역 있음
                     if (selectNo == 1) {
                         for (AccountDTO accountDTO : accountDTOList) {
                             System.out.println("accountDTO = " + accountDTO);
@@ -131,8 +131,8 @@ public class BankService {
         String accountNumberTo = scanner.next();
         System.out.print("보낼 금액: ");
         long money = scanner.nextLong();
-        ClientDTO clientTo = bankRepository.accountCheck(accountNumberTo);
-        ClientDTO clientFrom = bankRepository.accountCheck(accountNumberFrom);
+        ClientDTO clientTo = bankRepository.accountCheck(accountNumberTo); // 받는 사람의 고객정보
+        ClientDTO clientFrom = bankRepository.accountCheck(accountNumberFrom); // 보내는 사람의 고객정보
         if (clientTo != null && clientFrom !=null) {
             System.out.println("받으실 분이 " + clientTo.getClientName() + "님이 맞습니까?");
             System.out.println("맞으면 1번, 틀리면 2번을 입력해주세요.");
@@ -140,7 +140,7 @@ public class BankService {
             int selectNo = scanner.nextInt();
             if (selectNo == 1) {
                 System.out.print("비밀번호를 입력해주세요: ");
-                String clientPass = scanner.next();
+                String clientPass = scanner.next(); // 보내는 사람의 비밀번호
                 if (clientPass.equals(clientFrom.getClientPass()) && money <= clientFrom.getBalance()) {
                     bankRepository.transfer(accountNumberFrom, accountNumberTo, money);
                     System.out.println("이체가 완료되었습니다. ");

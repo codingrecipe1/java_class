@@ -21,9 +21,15 @@ public class BankRepository {
     }
 
     public ClientDTO checkBalance(String accountNumber) {
-        for (ClientDTO clientDTO : clientDTOList) {
-            if (accountNumber.equals(clientDTO.getAccountNumber())) {
-                return clientDTO;
+//        for (ClientDTO clientDTO : clientDTOList) {
+//            if (accountNumber.equals(clientDTO.getAccountNumber())) {
+//                return clientDTO;
+//            }
+//        }
+//        return null;
+        for (int i = 0; i < clientDTOList.size(); i++) {
+            if (accountNumber.equals(clientDTOList.get(i).getAccountNumber())) {
+                return clientDTOList.get(i);
             }
         }
         return null;
@@ -32,9 +38,9 @@ public class BankRepository {
     public boolean deposit(String accountNumber, long money) {
         for (ClientDTO clientDTO : clientDTOList) {
             if (accountNumber.equals(clientDTO.getAccountNumber())) {
-                long balance = clientDTO.getBalance();
-                balance = balance + money;
-                clientDTO.setBalance(balance);
+                long balance = clientDTO.getBalance(); // 기존 잔액 가져옴
+                balance = balance + money; // 기존 잔액 + 입금액 => 잔액
+                clientDTO.setBalance(balance); // 해당 고객의 잔액 값으로 저장
                 AccountDTO accountDTO = new AccountDTO(accountNumber, money, 0);
                 accountDTOList.add(accountDTO);
                 return true;
@@ -72,13 +78,13 @@ public class BankRepository {
 
     public void transfer(String accountNumberFrom, String accountNumberTo, long money) {
         for (int i = 0; i < clientDTOList.size(); i++) {
-            if (accountNumberFrom.equals(clientDTOList.get(i).getAccountNumber())) {
+            if (accountNumberFrom.equals(clientDTOList.get(i).getAccountNumber())) { // 보내는 사람의 잔액, 거래내역 처리
                 long balance = clientDTOList.get(i).getBalance();
                 balance = balance - money;
                 clientDTOList.get(i).setBalance(balance);
                 AccountDTO accountDTO = new AccountDTO(accountNumberFrom, 0, money);
                 accountDTOList.add(accountDTO);
-            } else if (accountNumberTo.equals(clientDTOList.get(i).getAccountNumber())) {
+            } else if (accountNumberTo.equals(clientDTOList.get(i).getAccountNumber())) { // 받는 사람의 잔액, 거래내역 처리
                 long balance = clientDTOList.get(i).getBalance();
                 balance = balance + money;
                 clientDTOList.get(i).setBalance(balance);
