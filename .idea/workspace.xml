@@ -4,9 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원제게시판 프로젝트 - 완성">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원제게시판 프로젝트 - 주석 추가">
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03_member/MemberDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03_member/MemberMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03_member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03_member/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03_member/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03_member/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04_board/BoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04_board/BoardMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04_board/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04_board/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/Ex_Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04_board/Ex_Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04_board/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04_board/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05_bank/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05_bank/BankMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/BankRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05_bank/BankRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05_bank/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05_bank/ClientDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05_bank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05_bank/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/common/CommonVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/common/CommonVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/dto/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/dto/BoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/dto/CommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/dto/MemberDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/repository/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06_memberboard/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06_memberboard/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +96,26 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainController">
+  <component name="RunManager" selected="Application.Ex01_MapBasic">
     <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_classes.ex04_board.BoardMain" />
+      <option name="MAIN_CLASS_NAME" value="ch12_classes.ex04_board.BoardMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_classes.ex04_board.*" />
+          <option name="PATTERN" value="ch12_classes.ex04_board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01_MapBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch13_map.Ex01_MapBasic" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch13_map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="Ex_Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_classes.ex04_board.Ex_Date" />
+      <option name="MAIN_CLASS_NAME" value="ch12_classes.ex04_board.Ex_Date" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_classes.ex04_board.*" />
+          <option name="PATTERN" value="ch12_classes.ex04_board.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_classes.ex06_memberboard.MainController" />
+      <option name="MAIN_CLASS_NAME" value="ch12_classes.ex06_memberboard.MainController" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_classes.ex06_memberboard.*" />
+          <option name="PATTERN" value="ch12_classes.ex06_memberboard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,24 +150,11 @@
       </method>
     </configuration>
     <configuration name="MemberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_classes.ex03_member.MemberMain" />
+      <option name="MAIN_CLASS_NAME" value="ch12_classes.ex03_member.MemberMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch11_classes.ex03_member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch11_classes.ex02.BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch11_classes.ex02.BookMain" />
-      <module name="java_class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch11_classes.ex02.*" />
+          <option name="PATTERN" value="ch12_classes.ex03_member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex01_MapBasic" />
         <item itemvalue="Application.MainController" />
         <item itemvalue="Application.BoardMain" />
         <item itemvalue="Application.Ex_Date" />
         <item itemvalue="Application.MemberMain" />
-        <item itemvalue="Application.ch11_classes.ex02.BookMain" />
       </list>
     </recent_temporary>
   </component>
@@ -145,14 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00030" summary="클래스연습-회원">
-      <option name="closed" value="true" />
-      <created>1702427849494</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1702427849494</updated>
     </task>
     <task id="LOCAL-00031" summary="클래스연습-회원 완성">
       <option name="closed" value="true" />
@@ -538,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703229887993</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="회원제게시판 프로젝트 - 주석 추가">
+      <option name="closed" value="true" />
+      <created>1703550974295</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1703550974298</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="도서 관리 예제 - 도서삭제기능" />
     <MESSAGE value="회원 프로젝트 - 시작" />
     <MESSAGE value="회원 프로젝트 - 기본 구성 완료" />
     <MESSAGE value="회원 프로젝트 - 회원가입 기능 완료" />
@@ -578,6 +612,7 @@
     <MESSAGE value="은행 프로젝트 - 주석" />
     <MESSAGE value="회원제게시판 프로젝트 - 시작" />
     <MESSAGE value="회원제게시판 프로젝트 - 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원제게시판 프로젝트 - 완성" />
+    <MESSAGE value="회원제게시판 프로젝트 - 주석 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원제게시판 프로젝트 - 주석 추가" />
   </component>
 </project>
