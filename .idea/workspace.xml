@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="패키지 이름 수정">
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookMain.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="Book 예제에 map 적용 시작">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch13_map/ex02/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch13_map/ex02/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch13_map/ex02/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch13_map.ex02.BookMain" />
+      <module name="java_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch13_map.ex02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex01_MapBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch13_map.Ex01_MapBasic" />
       <module name="java_class" />
@@ -116,26 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch12_classes.ex03_member.MemberMain" />
-      <module name="java_class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch12_classes.ex03_member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Ex01_MapBasic" />
+        <item itemvalue="Application.BookMain" />
         <item itemvalue="Application.MainController" />
         <item itemvalue="Application.BoardMain" />
         <item itemvalue="Application.Ex_Date" />
-        <item itemvalue="Application.MemberMain" />
       </list>
     </recent_temporary>
   </component>
@@ -147,22 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00032" summary="클래스연습-게시판 시작">
-      <option name="closed" value="true" />
-      <created>1702442354919</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1702442354919</updated>
-    </task>
-    <task id="LOCAL-00033" summary="클래스연습-게시판 완료">
-      <option name="closed" value="true" />
-      <created>1702449103606</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1702449103606</updated>
     </task>
     <task id="LOCAL-00034" summary="ArrayList">
       <option name="closed" value="true" />
@@ -540,7 +525,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703554242906</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="map 기초">
+      <option name="closed" value="true" />
+      <created>1703555794369</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1703555794369</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Book 예제에 map 적용 시작">
+      <option name="closed" value="true" />
+      <created>1703555818867</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1703555818867</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,8 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="회원 프로젝트 - 기본 구성 완료" />
-    <MESSAGE value="회원 프로젝트 - 회원가입 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 로그인 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원목록 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원정보수정 기능 완료" />
@@ -580,6 +579,8 @@
     <MESSAGE value="회원제게시판 프로젝트 - 완성" />
     <MESSAGE value="회원제게시판 프로젝트 - 주석 추가" />
     <MESSAGE value="패키지 이름 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="패키지 이름 수정" />
+    <MESSAGE value="map 기초" />
+    <MESSAGE value="Book 예제에 map 적용 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book 예제에 map 적용 시작" />
   </component>
 </project>

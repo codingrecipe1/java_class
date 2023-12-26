@@ -36,5 +36,14 @@ public class Ex01_MapBasic {
             System.out.println(map2.get(s));
         }
 
+        Map<Long, String> map3 = new HashMap<>();
+        String ss1 = map3.put(1L, "안녕");
+        System.out.println("ss1 = " + ss1); // null
+        String ss2 = map3.put(2L, "hello");
+        System.out.println("ss2 = " + ss2); // null
+        String ss3 = map3.put(1L, "안녕하세요");
+        System.out.println("ss3 = " + ss3); // 안녕
+
+
     }
 }
