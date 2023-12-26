@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="Book 예제에 map 적용 시작">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="Book 예제에 map 적용 완료">
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03_member/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03_member/MemberMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03_member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03_member/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch13_map/ex02/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch13_map/ex02/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch13_map/ex02/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +39,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/development/java/java_class/src/ch11_classes/ex06_memberboard/service&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/development/java/java_class/src/ch13_map",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\java\java_class\src\ch13_map" />
       <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard\service" />
       <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard\repository" />
       <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard\dto" />
@@ -148,14 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00034" summary="ArrayList">
-      <option name="closed" value="true" />
-      <created>1702516766747</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1702516766747</updated>
     </task>
     <task id="LOCAL-00035" summary="ArrayList - 객체저장">
       <option name="closed" value="true" />
@@ -541,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703555818867</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Book 예제에 map 적용 완료">
+      <option name="closed" value="true" />
+      <created>1703564394977</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1703564394978</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="회원 프로젝트 - 로그인 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원목록 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원정보수정 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원탈퇴 기능 완료" />
@@ -581,6 +581,7 @@
     <MESSAGE value="패키지 이름 수정" />
     <MESSAGE value="map 기초" />
     <MESSAGE value="Book 예제에 map 적용 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="Book 예제에 map 적용 시작" />
+    <MESSAGE value="Book 예제에 map 적용 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book 예제에 map 적용 완료" />
   </component>
 </project>
