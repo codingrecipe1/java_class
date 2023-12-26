@@ -4,8 +4,8 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class CommentDTO {
-    private Long id;
-    private Long boardId;
+    private Long id; // 댓글번호(자동생성)
+    private Long boardId; // 댓글이 작성된 게시글 번호
     private String commentWriter;
     private String commentContents;
     private String createdAt;

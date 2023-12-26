@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class BoardRepository {
     Scanner scanner = new Scanner(System.in);
-    private List<BoardDTO> boardDTOList = new ArrayList<>();
+    private static List<BoardDTO> boardDTOList = new ArrayList<>();
 
     public boolean save(BoardDTO boardDTO) {
         return boardDTOList.add(boardDTO);

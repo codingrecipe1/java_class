@@ -39,6 +39,7 @@ public class BoardService {
         boolean result = boardRepository.updateHits(id);
         if (result) {
             BoardDTO boardDTO = boardRepository.findById(id);
+            // 조회하는 게시글에 작성된 댓글 목록만 가져와야 함
             List<CommentDTO> commentDTOList = commentRepository.findAll(id);
             System.out.println("boardDTO = " + boardDTO);
             System.out.println("====== 댓글 ======");
@@ -56,6 +57,7 @@ public class BoardService {
             if (selectNo == 1) {
                 System.out.print("댓글 내용: ");
                 String commentContents = scanner.next();
+                // 댓글을 작성할 때는 반드시 게시글 번호도 함께 저장되어야 함.
                 CommentDTO commentDTO = new CommentDTO(id, CommonVariables.loginEmail, commentContents);
                 boolean commentResult = commentRepository.save(commentDTO);
                 if (commentResult) {
@@ -75,6 +77,7 @@ public class BoardService {
         System.out.print("수정할 id: ");
         Long id = scanner.nextLong();
         BoardDTO boardDTO = boardRepository.findById(id);
+        // 게시글도 존재하고 로그인한 회원이 작성한 글이라면
         if (boardDTO != null && CommonVariables.loginEmail.equals(boardDTO.getBoardWriter())) {
             System.out.print("수정 제목: ");
             String boardTitle = scanner.next();
@@ -87,6 +90,7 @@ public class BoardService {
                 System.out.println("수정 실패");
             }
         } else if (!CommonVariables.loginEmail.equals(boardDTO.getBoardWriter())) {
+            // 게시글은 있는데 작성한 회원이 아니라면
             System.out.println("작성자만 수정 가능합니다.");
         } else if (boardDTO == null) {
             System.out.println("요청하신 게시글은 존재하지 않습니다!");
@@ -97,19 +101,17 @@ public class BoardService {
         System.out.print("수정할 id: ");
         Long id = scanner.nextLong();
         BoardDTO boardDTO = boardRepository.findById(id);
-        if (boardDTO != null) {
-            if (boardDTO != null && CommonVariables.loginEmail.equals(boardDTO.getBoardWriter())) {
-                boolean result = boardRepository.delete(id);
-                if (result) {
-                    System.out.println("삭제 완료");
-                } else {
-                    System.out.println("삭제 실패");
-                }
-            } else if (!CommonVariables.loginEmail.equals(boardDTO.getBoardWriter())) {
-                System.out.println("작성자만 삭제 가능합니다.");
-            } else if (boardDTO == null) {
-                System.out.println("요청하신 게시글은 존재하지 않습니다!");
+        if (boardDTO != null && CommonVariables.loginEmail.equals(boardDTO.getBoardWriter())) {
+            boolean result = boardRepository.delete(id);
+            if (result) {
+                System.out.println("삭제 완료");
+            } else {
+                System.out.println("삭제 실패");
             }
+        } else if (!CommonVariables.loginEmail.equals(boardDTO.getBoardWriter())) {
+            System.out.println("작성자만 삭제 가능합니다.");
+        } else if (boardDTO == null) {
+            System.out.println("요청하신 게시글은 존재하지 않습니다!");
         }
     }
 
