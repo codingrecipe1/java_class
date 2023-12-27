@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원 예제에 map 적용 완료">
-      <change afterPath="$PROJECT_DIR$/src/ch14_inheritance/ex01/ChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14_inheritance/ex01/InheritanceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14_inheritance/ex01/ParentClass.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="상속">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/Impl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/Impl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/IntMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberRepositoryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberRepositoryMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch13_map/ex03_member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch13_map/ex03_member/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -43,8 +51,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/development/java/java_class/src/ch13_map",
+    "last_opened_file_path": "C:/development/java/java_class/src/ch15_interface/ex02",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -52,13 +61,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\java\java_class\src\ch15_interface\ex02" />
       <recent name="C:\development\java\java_class\src\ch13_map" />
       <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard\service" />
       <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard\repository" />
       <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard\dto" />
-      <recent name="C:\development\java\java_class\src\ch11_classes\ex06_memberboard" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch15_interface.ex02" />
       <recent name="ch11_classes.ex06_memberboard" />
       <recent name="ch11_classes.ex06_memberboard.dto" />
       <recent name="ch11_classes.ex04_board" />
@@ -149,14 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00036" summary="ArrayList - Book 객체">
-      <option name="closed" value="true" />
-      <created>1702526503713</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1702526503713</updated>
     </task>
     <task id="LOCAL-00037" summary="ArrayList - Book 객체">
       <option name="closed" value="true" />
@@ -542,7 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703569954539</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="상속">
+      <option name="closed" value="true" />
+      <created>1703574583939</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1703574583939</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,7 +567,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="회원 프로젝트 - 회원정보수정 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 회원탈퇴 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 로그아웃 기능 완료" />
     <MESSAGE value="회원 프로젝트 - 이메일 중복체크 기능 완료 및 완성" />
@@ -582,6 +591,7 @@
     <MESSAGE value="Book 예제에 map 적용 시작" />
     <MESSAGE value="Book 예제에 map 적용 완료" />
     <MESSAGE value="회원 예제에 map 적용 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원 예제에 map 적용 완료" />
+    <MESSAGE value="상속" />
+    <option name="LAST_COMMIT_MESSAGE" value="상속" />
   </component>
 </project>
